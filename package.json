@@ -10,10 +10,19 @@
   "author": "Shahadath Hossen Sajib",
   "license": "UNLICENSED",
   "main": "index.js",
-  "dependencies": {},
   "devDependencies": {
+    "@eslint/js": "^9.31.0",
+    "@eslint/json": "^0.13.0",
+    "@eslint/markdown": "^7.0.0",
+    "eslint": "^9.31.0",
+    "globals": "^16.3.0",
+    "prettier": "^3.6.2"
   },
   "scripts": {
-    "format": "npx prettier --write ./**/*.js"
+    "lint": "npx eslint ./**/*.js",
+    "lint:fix": "npx eslint ./**/*.js --fix",
+    "lint:format": "npx eslint ./**/*.js --fix --quiet",
+    "format": "npx prettier --write ./**/*.js",
+    "format:check": "npx prettier --check ./**/*.js"
   }
 }
