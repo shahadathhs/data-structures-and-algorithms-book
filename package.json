@@ -1,0 +1,19 @@
+{
+  "name": "data-structures-and-algorithms-in-javascript",
+  "version": "1.0.0",
+  "description": "Code for 'Algorithms and Data Structures in JavaScript' book",
+  "keywords": [
+    "algorithms",
+    "dataStructures",
+    "javascript"
+  ],
+  "author": "Shahadath Hossen Sajib",
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+  },
+  "scripts": {
+    "format": "npx prettier --write ./**/*.js"
+  }
+}
